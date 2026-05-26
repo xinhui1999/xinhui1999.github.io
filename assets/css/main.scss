@@ -107,3 +107,12 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.project-video {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    margin: 1em 0 1.25em;
+    border-radius: 4px;
+    background: #000;
+}
