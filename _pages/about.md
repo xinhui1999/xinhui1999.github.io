@@ -18,9 +18,9 @@ I am currently seeking PhD opportunities in **robot learning and control**. I am
 ## Research Interests
 
 - Robot learning and intelligent robotics
-- Reinforcement learning for robot control
-- Robot dynamics, motion planning, and control systems
-- Sim-to-real transfer, legged locomotion, and robotic manipulation
+- Reinforcement learning for adaptive robotic systems
+- Robot dynamics, locomotion, and decision-making
+- Sim-to-real transfer and robotic manipulation
 
 ## Research Projects
 
