@@ -12,7 +12,7 @@ redirect_from:
 
 I am **Xinhui Shan**, a researcher passionate about robotics. My interest in robotics began in high school and has guided my academic path ever since. I received my **M.Sc. in Robotics, Cognition, and Intelligence** from the Technical University of Munich and my **B.Eng. in Automation** from Jilin University. Through my studies and research projects, I have developed experience in robot control, particularly in robot learning, reinforcement learning, sim-to-real transfer, and adaptive control for robots operating in challenging and dynamic environments.
 
-I am currently seeking PhD opportunities in **robot learning, reinforcement learning, and control**. I am particularly interested in developing learning-based controllers that enable robots to adapt robustly in complex physical environments.
+I am currently seeking PhD opportunities in **robot learning and control**. I am particularly interested in developing learning-based controllers that enable robots to adapt robustly in complex physical environments.
 
 
 ## Research Interests
@@ -109,7 +109,7 @@ I am currently seeking PhD opportunities in **robot learning, reinforcement lear
     </div>
     <div class="project-details">
       <p><strong>Problem:</strong> Learn long-horizon dynamic lane-allocation decisions in a large-scale system whose network configuration and demand vary over time.</p>
-      <p><strong>Method:</strong> I developed a Dyna-style model-based reinforcement learning framework using learned dynamics models and multi-step synthetic rollouts for policy optimization.</p>
+      <p><strong>Method:</strong> I developed a Dyna-style model-based reinforcement learning framework using learned physical-informed dynamics world models and multi-step synthetic rollouts for policy optimization.</p>
       <p><strong>Evaluation Setting:</strong> Large-scale microscopic SUMO environments with non-stationary multimodal demand.</p>
     </div>
   </div>
@@ -172,7 +172,7 @@ I am currently seeking PhD opportunities in **robot learning, reinforcement lear
 ### Peer-Reviewed Conference Papers
 
 - `ITSC 2026, Accepted` Y. Yang, C. Roncoli, J. Zhu, **X. Shan**, and X. Yang, "Cross-Region High-Resolution Traffic State Prediction: A Multi-Source Meta-Learning Approach," *IEEE International Conference on Intelligent Transportation Systems*, Naples, Italy, Sep 2026.
-- `CPHS 2020` Z. Tang, **X. Shan**, and S. Li, "[Dynamic Modeling and Extension Adaptive Sliding Mode Control of Onboard Craning Manipulator](https://doi.org/10.1016/j.ifacol.2021.04.218)," *3rd IFAC Workshop on Cyber-Physical and Human Systems*, Beijing, China, 2020.
+- `IFAC 2020` Z. Tang, **X. Shan**, and S. Li, "[Dynamic Modeling and Extension Adaptive Sliding Mode Control of Onboard Craning Manipulator](https://doi.org/10.1016/j.ifacol.2021.04.218)," *3rd IFAC Workshop on Cyber-Physical and Human Systems*, Beijing, China, 2020.
 
 ### Journal Articles Under Review and in Preparation
 
