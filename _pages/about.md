@@ -171,14 +171,16 @@ I am currently seeking PhD opportunities in **robot learning and control**. I am
 
 ### Peer-Reviewed Conference Papers
 
-- `ITSC 2026, Accepted` Y. Yang, C. Roncoli, J. Zhu, **X. Shan**, and X. Yang, "Cross-Region High-Resolution Traffic State Prediction: A Multi-Source Meta-Learning Approach," *IEEE International Conference on Intelligent Transportation Systems*, Naples, Italy, Sep 2026.
 - `IFAC 2020` Z. Tang, **X. Shan**, and S. Li, "[Dynamic Modeling and Extension Adaptive Sliding Mode Control of Onboard Craning Manipulator](https://doi.org/10.1016/j.ifacol.2021.04.218)," *3rd IFAC Workshop on Cyber-Physical and Human Systems*, Beijing, China, 2020.
+- `ITSC 2026, Accepted` Y. Yang, C. Roncoli, J. Zhu, **X. Shan**, and X. Yang, "Cross-Region High-Resolution Traffic State Prediction: A Multi-Source Meta-Learning Approach," *IEEE International Conference on Intelligent Transportation Systems*, Naples, Italy, Sep 2026.
+
 
 ### Journal Articles Under Review and in Preparation
 
+- `In Preparation` **X. Shan**, Y. Huang, Z. Bing, Z. Zhang, X. Yao, K. Huang, and A. Knoll, "[Locomotion Generation for a Rat Robot based on Environmental Changes via Reinforcement Learning](https://doi.org/10.48550/arXiv.2403.11788)," in preparation for submission to *IEEE Robotics and Automation Letters*.
 - `Under Review` N. Yang, **X. Shan**, T. Guo, I. Yamnenko, and C. Antoniou, "[Few-Shot Adaptation for Detecting New Transport Modes using MAML-Optimized Prototypical Mixture-of-Experts Networks](http://dx.doi.org/10.2139/ssrn.6570251)," submitted to *Information Fusion*.
 - `In Preparation` **X. Shan** and C. Roncoli, "TransDyn-RL: World Model-Based Reinforcement Learning for Dynamic Lane Allocation," in preparation for submission to *IEEE Transactions on Intelligent Transportation Systems*.
-- `In Preparation` **X. Shan**, Y. Huang, Z. Bing, Z. Zhang, X. Yao, K. Huang, and A. Knoll, "[Locomotion Generation for a Rat Robot based on Environmental Changes via Reinforcement Learning](https://doi.org/10.48550/arXiv.2403.11788)," in preparation for submission to *IEEE Robotics and Automation Letters*.
+
 
 ## Honors and Awards
 
