@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xinhui Shan"
-# description              : "Intelligent robotics, robot learning, reinforcement learning, and control."
+description              : ""
 repository               : "xinhui1999/xinhui1999.github.io"
 google_scholar_stats_use_cdn : true
 
