@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xinhui Shan"
-description              : "Intelligent robotics, robot learning, reinforcement learning, and control."
+# description              : "Intelligent robotics, robot learning, reinforcement learning, and control."
 repository               : "xinhui1999/xinhui1999.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,11 +24,11 @@ author:
   name             : "Xinhui Shan"
   avatar           : "/xinhui1.jpg"
   bio              : "Prospective PhD Applicant in Robotics and Control"
-  location         : "Leuven, Belgium"
+  location         : "Munich, Germany"
   employer         :
   pubmed           : 
   googlescholar    :
-  email            : "xinhui.shan@kuleuven.be"
+  email            : "xinhui.shan@outlook.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "xinhuishan"
+  github           :
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "xinhui-shan-26b6b2227"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :

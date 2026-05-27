@@ -108,11 +108,110 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
+.page__content {
+    strong,
+    b {
+        color: $darker-gray;
+        font-weight: 700;
+    }
+
+    h2 {
+        margin-top: 2.2em;
+        margin-bottom: .95em;
+        padding-bottom: .4em;
+        color: $link-color;
+        font-size: 1.35em;
+        border-bottom: 2px solid $border-color;
+    }
+
+    h3 {
+        margin-top: 2.15em;
+        margin-bottom: 1.05em;
+        padding-left: .65em;
+        color: $text-color;
+        font-size: 1.1em;
+        border-left: 3px solid $link-color;
+    }
+}
+
 .project-video {
     display: block;
     width: 100%;
-    max-width: 720px;
-    margin: 1em 0 1.25em;
+    max-width: 100%;
+    margin: 0;
     border-radius: 4px;
     background: #000;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 4px;
+}
+
+.project-item {
+    margin: 0 0 2.55em;
+    padding: 0 0 2.25em;
+    border-bottom: 1px solid $border-color;
+}
+
+.page__content .project-title {
+    margin: 0 0 .9em;
+    color: $darker-gray;
+    font-size: 1.08em;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.project-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.project-media,
+.project-details {
+    min-width: 0;
+}
+
+.project-details {
+    strong,
+    b {
+        color: $link-color;
+        font-weight: 700;
+        letter-spacing: .01em;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: .65em;
+        line-height: 1.55;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@include breakpoint($medium) {
+    .project-layout {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 1.35em;
+    }
+
+    .project-media {
+        flex: 0 0 calc(50% - .675em);
+    }
+
+    .project-details {
+        flex: 1 1 0;
+    }
+
+    .project-item--text-only .project-details {
+        flex-basis: 100%;
+    }
 }
