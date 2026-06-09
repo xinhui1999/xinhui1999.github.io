@@ -26,6 +26,24 @@ I am currently seeking PhD opportunities in **robot learning and control**. I am
 ### Robotics, Learning, and Control
 
 <article class="project-item">
+  <h4 class="project-title">Trustworthy Vision-Language-Action Execution: A Selective Execution Layer for Frozen VLA Policies</h4>
+  <div class="project-layout">
+    <div class="project-media">
+      <video class="project-video" autoplay muted loop playsinline controls preload="metadata">
+        <source src="/Trustworthy_vla.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="project-details">
+      <p><strong>Problem:</strong> A VLA policy outputs an action for every observation, even under occlusion, distribution shift, or low confidence. Can a frozen policy instead know when it is unreliable and choose among continuing, resampling, and stopping?</p>
+      <p><strong>Method:</strong>  I added a non-invasive selective execution layer to a frozen SmolVLA policy on LIBERO, combining ensemble-based failure probability, epistemic uncertainty, and a task/stage-conditioned Mahalanobis OOD detector into real Execute / Resample / Stop decisions.</p>
+      <p><strong>Outcome:</strong> On a 40-pair matched benchmark, the system cut unsafe continuation from 100% to 7.14% and reduced out-of-distribution action exposure by 98.94%, at the cost of a 33.3% false-stop rate, framing the capability–selectivity trade-off as the central open problem.</p>
+      <p><strong>Resources:</strong> <a href="">Github Code</a></p>
+    </div>
+  </div>
+</article>
+
+<article class="project-item">
   <h4 class="project-title">Adaptive Quadrupedal Locomotion Based on Reinforcement Learning</h4>
   <div class="project-layout">
     <div class="project-media">
