@@ -12,7 +12,7 @@ redirect_from:
 
 I am **Xinhui Shan**, a researcher passionate about robotics. My interest in robotics began in high school and has guided my academic path ever since. I received my **M.Sc. in Robotics, Cognition, and Intelligence** from the Technical University of Munich and my **B.Eng. in Automation** from Jilin University. Through my studies and research projects, I have developed experience in robot control, particularly in robot learning, robotic manipulation, quadrupedal locomotion, sim-to-real transfer, and model-based learning for adaptive robotic systems.
 
-I am currently seeking PhD opportunities in **robot learning and control**. I am particularly interested in developing intelligent robotic systems that can perceive, reason, and adapt in complex physical environments through robot learning and interaction.
+I am currently seeking PhD opportunities in **robot learning and control**. I am particularly interested in developing intelligent and reliable robotic systems that can perceive, reason, and adapt in complex physical environments through robot learning and interaction.
 
 
 ## Research Interests
