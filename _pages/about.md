@@ -12,16 +12,16 @@ redirect_from:
 
 I am **Xinhui Shan**, a researcher passionate about robotics. My interest in robotics began in high school and has guided my academic path ever since. I received my **M.Sc. in Robotics, Cognition, and Intelligence** from the Technical University of Munich and my **B.Eng. in Automation** from Jilin University. Through my studies and research projects, I have developed experience in robot control, particularly in robot learning, robotic manipulation, quadrupedal locomotion, sim-to-real transfer, and model-based learning for adaptive robotic systems.
 
-I am currently seeking PhD opportunities in **robot learning and control**. I am particularly interested in developing intelligent robotic systems that can perceive, reason, and adapt in complex physical environments through robot learning and interaction.
+I am currently seeking PhD and research assistant positions in **robot learning and control**. I am particularly interested in developing intelligent robotic systems that can perceive, reason, and adapt in complex physical environments through robot learning and interaction.
 
 
 ## Research Interests
 
-- Robot Learning and Embodied AI
+- Reliable Robot Learning and Embodied AI
 - Vision-Language-Action Learning and World Models
 - Robotic Manipulation and Sim-to-Real Transfer
 
-## Research Projects
+## Research Experiences
 
 ### Robotics, Learning, and Control
 
@@ -37,7 +37,7 @@ I am currently seeking PhD opportunities in **robot learning and control**. I am
     <div class="project-details">
       <p><strong>Problem:</strong> How can a small-scale quadrupedal robot adapt to complex terrains when only limited onboard sensing is available?</p>
       <p><strong>Method:</strong> I constructed Fourier-transform-based state representations from IMU signals and designed a customized PPO-based control policy with task-adaptive rewards for ramps, stairs, and spiral staircases.</p>
-      <p><strong>Outcome:</strong> The policy achieved stable adaptive locomotion and converged within 300k training steps, approximately 10x faster than PPO and TD3 baselines.</p>
+      <p><strong>Outcome:</strong> The policy achieved stable adaptive locomotion and converged within 0.25M timesteps without pre-training, approximately 10x faster than PPO and TD3 baselines.</p>
       <p><strong>Resources:</strong> <a href="https://doi.org/10.48550/arXiv.2403.11788">arXiv preprint</a></p>
     </div>
   </div>
