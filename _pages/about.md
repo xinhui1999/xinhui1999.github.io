@@ -55,7 +55,7 @@ I am currently seeking PhD and research assistant positions in **robot learning 
     <div class="project-details">
       <p><strong>Problem:</strong> How can a small-scale quadrupedal robot adapt to complex terrains when only limited onboard sensing is available?</p>
       <p><strong>Method:</strong> I constructed Fourier-transform-based state representations from IMU signals and designed a customized PPO-based control policy with task-adaptive rewards for ramps, stairs, and spiral staircases.</p>
-      <p><strong>Outcome:</strong> The policy achieved stable adaptive locomotion and converged within 0.25M timesteps without pre-training, approximately 10x faster than PPO and TD3 baselines.</p>
+      <p><strong>Outcome:</strong> The policy achieved stable adaptive locomotion and in simulation, PPO converged within 0.25M timesteps without pre-training, with median success ≥0.9 on 5–10° ramps and 5–10 mm stairs (≈0.7 at the 15 mm limit).</p>
       <p><strong>Resources:</strong> <a href="https://doi.org/10.48550/arXiv.2403.11788">arXiv preprint</a></p>
     </div>
   </div>
@@ -126,7 +126,7 @@ I am currently seeking PhD and research assistant positions in **robot learning 
     </div>
     <div class="project-details">
       <p><strong>Problem:</strong> Learn long-horizon dynamic lane-allocation decisions in a large-scale system whose network configuration and demand vary over time.</p>
-      <p><strong>Method:</strong> I developed a Dyna-style model-based reinforcement learning framework using learned physical-informed dynamics world models and multi-step synthetic rollouts for policy optimization.</p>
+      <p><strong>Method:</strong> I developed a Dyna-style model-based reinforcement learning framework using learned physics-informed dynamics world models and multi-step synthetic rollouts for policy optimization.</p>
       <p><strong>Evaluation Setting:</strong> Large-scale microscopic SUMO environments with non-stationary multimodal demand.</p>
     </div>
   </div>
@@ -189,19 +189,24 @@ I am currently seeking PhD and research assistant positions in **robot learning 
 ### Peer-Reviewed Conference Papers
 
 - `IFAC 2020` Z. Tang, **X. Shan**, and S. Li, "[Dynamic Modeling and Extension Adaptive Sliding Mode Control of Onboard Craning Manipulator](https://doi.org/10.1016/j.ifacol.2021.04.218)," *3rd IFAC Workshop on Cyber-Physical and Human Systems*, Beijing, China, 2020.
+  - **About:** Dynamic model and extension adaptive sliding-mode controller for trajectory tracking of an onboard craning manipulator under model uncertainty and external disturbances.<br>**My role:** Derived the manipulator dynamics and contributed to the adaptive sliding-mode controller design, validated in MATLAB simulation.
 - `ITSC 2026, Accepted` Y. Yang, C. Roncoli, J. Zhu, **X. Shan**, and X. Yang, "Cross-Region High-Resolution Traffic State Prediction: A Multi-Source Meta-Learning Approach," *IEEE International Conference on Intelligent Transportation Systems*, Naples, Italy, Sep 2026.
+  - **About:** Meta-learning for spatiotemporal traffic prediction: a learned initialization captures dynamics shared across regions and adapts quickly to a new, data-scarce region (pNEUMA dataset).<br>**My role:** Contributed to the meta-learning algorithm design and the experiment design.
 
 
 ### Journal Articles Under Review and in Preparation
 
 - `In Preparation` **X. Shan**, Y. Huang, Z. Bing, Z. Zhang, X. Yao, K. Huang, and A. Knoll, "[Locomotion Generation for a Rat Robot based on Environmental Changes via Reinforcement Learning](https://doi.org/10.48550/arXiv.2403.11788)," in preparation for submission to *IEEE Robotics and Automation Letters*.
+  - **About:** RL locomotion for the small rat robot NeRmo with limited onboard IMU sensing: Fourier features from gait-frequency analysis and a multi-task reward enable adaptation to ramps, stairs, and spiral stairs in simulation.<br>**My role:** Co-first author (equal contribution), based on my master's thesis (grade 1.0); designed the IMU features and rewards, trained and evaluated the PPO policies, and wrote the paper.
 - `Under Review` N. Yang, **X. Shan**, T. Guo, I. Yamnenko, and C. Antoniou, "[Few-Shot Adaptation for Detecting New Transport Modes using MAML-Optimized Prototypical Mixture-of-Experts Networks](http://dx.doi.org/10.2139/ssrn.6570251)," submitted to *Information Fusion*.
+  - **About:** Few-shot detection of new transport modes from GPS trajectories with a MAML-optimized prototypical network, a mixture-of-experts encoder, and open-set recalibration, robust to noisy or missing GPS.<br>**My role:** Contributed to the algorithm design and the paper writing.
 - `In Preparation` **X. Shan** and C. Roncoli, "TransDyn-RL: World Model-Based Reinforcement Learning for Dynamic Lane Allocation," in preparation for submission to *IEEE Transactions on Intelligent Transportation Systems*.
+  - **About:** Dyna-style model-based RL for dynamic lane allocation in SUMO: an MLP transition model trained with multi-step losses generates short synthetic rollouts for PPO, although delayed lane-clearance effects are not directly observed.<br>**My role:** First author; built the full pipeline, from simulator data collection and the transition model to PPO training, evaluation, and diagnostics.
 
 
 ## Honors and Awards
 
-- Master's thesis grade **1.0 (100/100)**, Technical University of Munich.
+- Master's thesis grade **1.0 (100/100) highest score**, Technical University of Munich.
 - **Academic Scholarship** (x4), Jilin University.
 - Excellent College Student and Excellent College Student Leader (x4), Jilin University.
 
