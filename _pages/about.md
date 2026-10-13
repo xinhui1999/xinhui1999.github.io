@@ -12,7 +12,7 @@ redirect_from:
 
 I am **Xinhui Shan**, a researcher passionate about robotics. My interest in robotics began in high school and has guided my academic path ever since. I received my **M.Sc. in Robotics, Cognition, and Intelligence** from the Technical University of Munich and my **B.Eng. in Automation** from Jilin University. Through my studies and research projects, I have developed experience in robot control, particularly in robot learning, robotic manipulation, quadrupedal locomotion, sim-to-real transfer, and model-based learning for adaptive robotic systems.
 
-I am currently seeking PhD and research assistant positions in **robot learning and control**. I am particularly interested in developing intelligent robotic systems that can perceive, reason, and adapt in complex physical environments through robot learning and interaction.
+I am currently seeking PhD and research assistant positions in **robot learning and control**. I am particularly interested in developing intelligent and reliable robotic systems that can perceive, reason, and adapt in complex physical environments through robot learning and interaction.
 
 
 ## Research Interests
@@ -24,6 +24,24 @@ I am currently seeking PhD and research assistant positions in **robot learning 
 ## Research Experiences
 
 ### Robotics, Learning, and Control
+
+<article class="project-item">
+  <h4 class="project-title">Trustworthy Vision-Language-Action Execution: A Selective Execution Layer for Frozen VLA Policies</h4>
+  <div class="project-layout">
+    <div class="project-media">
+      <video class="project-video" autoplay muted loop playsinline controls preload="metadata">
+        <source src="/Trustworthy_vla.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="project-details">
+      <p><strong>Problem:</strong> A VLA policy outputs an action for every observation, even under occlusion, distribution shift, or low confidence. Can a frozen policy instead know when it is unreliable and choose among continuing, resampling, and stopping?</p>
+      <p><strong>Method:</strong>  I added a non-invasive selective execution layer to a frozen SmolVLA policy on LIBERO, combining ensemble-based failure probability, epistemic uncertainty, and a task/stage-conditioned Mahalanobis OOD detector into real Execute / Resample / Stop decisions.</p>
+      <p><strong>Outcome:</strong> On a 40-pair matched benchmark, the system cut unsafe continuation from 100% to 7.14% and reduced out-of-distribution action exposure by 98.94%, at the cost of a 33.3% false-stop rate, framing the capability–selectivity trade-off as the central open problem.</p>
+      <p><strong>Resources:</strong> <a href="">Github Code</a></p>
+    </div>
+  </div>
+</article>
 
 <article class="project-item">
   <h4 class="project-title">Adaptive Quadrupedal Locomotion Based on Reinforcement Learning</h4>
